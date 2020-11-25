@@ -1,7 +1,6 @@
 # Xdrgen
 
 [![Build Status](https://travis-ci.org/payshares/xdrgen.svg)](https://travis-ci.org/payshares/xdrgen)
-[![Code Climate](https://codeclimate.com/github/payshares/xdrgen/badges/gpa.svg)](https://codeclimate.com/github/payshares/xdrgen)
 
 `xdrgen` is a code generator that takes XDR IDL files (`.x` files) as specfified 
 in [RFC 4506](http://tools.ietf.org/html/rfc4506.html) and spits code out in 

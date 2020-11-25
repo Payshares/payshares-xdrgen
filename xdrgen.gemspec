@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Scott Fleckenstein"]
   spec.email         = ["scott@stellar.org"]
   spec.summary       = %q{An XDR code generator}
-  spec.homepage      = "http://github.com/stellar/xdrgen"
+  spec.homepage      = "http://github.com/payshares/xdrgen"
   spec.license       = "ISC"
 
   spec.files         = `git ls-files -z`.split("\x0")

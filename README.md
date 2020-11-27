@@ -1,6 +1,6 @@
 # Payshares Xdrgen
 
-[![Build Status](https://travis-ci.org/payshares/xdrgen.svg)](https://travis-ci.org/payshares/xdrgen)
+[![Build Status](https://travis-ci.org/payshares/payshares-xdrgen.svg)](https://travis-ci.org/payshares/ppayshares-xdrgen)
 
 `payshares-xdrgen` is a code generator that takes XDR IDL files (`.x` files) as specfified 
 in [RFC 4506](http://tools.ietf.org/html/rfc4506.html) and spits code out in 

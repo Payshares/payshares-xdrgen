@@ -1,8 +1,8 @@
-# Xdrgen
+# Payshares Xdrgen
 
 [![Build Status](https://travis-ci.org/payshares/xdrgen.svg)](https://travis-ci.org/payshares/xdrgen)
 
-`xdrgen` is a code generator that takes XDR IDL files (`.x` files) as specfified 
+`payshares-xdrgen` is a code generator that takes XDR IDL files (`.x` files) as specfified 
 in [RFC 4506](http://tools.ietf.org/html/rfc4506.html) and spits code out in 
 various languages.
 
@@ -25,7 +25,7 @@ Testing is _very_ sparse, but will improve over time.
 
 Xdrgen is a rubygem, compatible with ruby 2.1 or higher
 
-    $ gem install xdrgen
+    $ gem install payshares-xdrgen
 
 The command line:
 
@@ -36,7 +36,7 @@ The command line:
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'xdrgen'
+gem 'payshares-xdrgen'
 ```
 
 And then execute:
@@ -46,7 +46,7 @@ And then execute:
 Example usage:
 
 ```ruby
-require 'xdrgen'
+require 'payshares-xdrgen'
 
 # create a compilation object, specifying your options
 
@@ -65,7 +65,7 @@ c.compile
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/xdrgen/fork )
+1. Fork it ( https://github.com/payshares/payshares-xdrgen/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'xdrgen/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "xdrgen"
+  spec.name          = "payshares-xdrgen"
   spec.version       = Xdrgen::VERSION
   spec.authors       = ["Kedia"]
   spec.email         = ["support@payshares.org"]
